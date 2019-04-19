@@ -8,14 +8,14 @@ public class calculadora {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 
-		Scanner tec = new Scanner (System.in);
+		Scanner entrada = new Scanner (System.in); // datos que ordenamos a partir del teclado del computador 
 		
 		
 		int numero1, numero2, opcion;
 		System.out.println("Ingrese Numero1: ");
-		numero1= tec.nextInt();
+		numero1= entrada.nextInt();
 		System.out.println("Ingrese Numero2: ");
-		numero2= tec.nextInt();
+		numero2= entrada.nextInt();
 		
 		do {
 				System.out.println("1.- Sumar.  "); 
@@ -25,7 +25,7 @@ public class calculadora {
 				System.out.println("5.- salir.");
 				System.out.println("\n Ingrese una opcion: "); 
 
-		opcion = tec.nextInt(); 
+		opcion = entrada.nextInt(); 
 		} while (opcion < 1 || opcion > 5 ); 
 		switch (opcion) {
 		

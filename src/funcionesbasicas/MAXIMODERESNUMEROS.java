@@ -6,20 +6,20 @@ public class MAXIMODERESNUMEROS {
 
 	public static void main(String[] args) {
 		
-		Scanner tec = new Scanner (System.in); // esta opcion es util para leer los datos que ordenamos del teclado
+		Scanner entrada = new Scanner (System.in); // esta opcion es util para leer los datos que ordenamos del teclado
 		
 		int numero1, numero2, numero3; // variables para almacenar los datos
 		
 		
 		System.out.println("ingrese el numero");
-		numero1 = tec.nextInt(); 
+		numero1 = entrada.nextInt(); 
 		
 		System.out.println("ingrese el numero");
-		numero2 = tec.nextInt(); 
+		numero2 = entrada.nextInt(); 
 		
 		
 		System.out.println("ingrese el numero");
-		numero3 = tec.nextInt(); 
+		numero3 = entrada.nextInt(); 
 		
 		if(numero1 > numero2) // si el numero 1 es mayor a numero 2
 			if (numero1 > numero3) // si el numero 1 es no es mayor al numero 3 
