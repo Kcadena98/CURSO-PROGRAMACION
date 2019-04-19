@@ -1,4 +1,5 @@
 
+package funcionesbasicas;
 
 import java.util.Scanner;
 
